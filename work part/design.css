@@ -12,11 +12,7 @@ nav {
   width: 80px;
   border-radius: 50%;
 }
-.navbtn {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-}
+
 .landpage {
   position: relative;
   min-height: 100vh;
@@ -25,6 +21,7 @@ nav {
   position: absolute;
   right: 0;
   top: -30px;
+  z-index: -1;
 }
 #smallell {
   position: absolute;

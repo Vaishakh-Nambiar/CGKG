@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&family=Signika:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -151,4 +153,11 @@
 }
 .border {
   border: 3px solid black;
+}
+nav {
+  width: 100%;
+  padding: 2rem;
+  top: 0;
+  justify-content: space-between;
+  align-items: flex-start;
 }
