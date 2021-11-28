@@ -3,9 +3,10 @@ main {
   padding: 2rem;
   border-radius: 50px;
   background-color: #fbfbfb;
+  /* border: 2px solid black; */
 }
 body {
-  background-color: #eaffd0;
+  background-color: #fbfbfb;
   position: relative;
 }
 .logo {
@@ -13,11 +14,7 @@ body {
   width: 80px;
   border-radius: 50%;
 }
-.navbtn {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-}
+
 nav {
   position: relative;
   justify-content: space-between;
@@ -35,7 +32,7 @@ h1 {
   padding: 1.5rem;
   position: relative;
 }
-h1::after {
+/* h1::after {
   content: "";
   position: absolute;
   left: -10%;
@@ -45,7 +42,7 @@ h1::after {
   z-index: -1;
   background-image: url(resource/blob1.svg);
   background-position: center;
-}
+} */
 
 table {
   width: 85%;
@@ -53,6 +50,7 @@ table {
   background-color: white;
   font-size: 1.3rem;
   z-index: 5;
+  margin-inline: 2rem;
 }
 
 tr,

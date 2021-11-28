@@ -72,6 +72,18 @@
 .bg-white {
   background-color: white;
 }
+.bg-vlblue {
+  background-color: #daddfc;
+}
+.bg-brightblue {
+  background-color: #c2fff9;
+}
+.bg-brightpink {
+  background-color: #ffdefa;
+}
+.bg-brightgreen {
+  background-color: #d5eebb;
+}
 
 /* ---- */
 .ff-br {
@@ -161,3 +173,5 @@ nav {
   justify-content: space-between;
   align-items: flex-start;
 }
+
+/* buttons code */

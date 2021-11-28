@@ -3,7 +3,8 @@
   padding: 0;
 }
 .gallerycontainer {
-  height: 320vh;
+  height: 250vh;
+  padding: 2rem;
   background-color: #ffb6c1;
   position: relative;
 }

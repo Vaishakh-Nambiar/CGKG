@@ -47,11 +47,10 @@ body {
 main {
   margin-inline: 3rem;
   padding-inline: 2rem;
-  height: 150vh;
+  /* height: 150vh; */
   justify-content: space-evenly;
 }
 main p {
-  /* border: 2px solid; */
   padding: 2rem;
   margin-inline: 1.5rem;
   width: 50%;

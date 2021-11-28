@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <title>CGKG</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,12 +15,27 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link href="utility.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="gallery.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+        integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
 
 
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -63,19 +79,23 @@
 
     <section class="boardpage  bg-vlightgreen flex column">
 
-        <div class="sector   flex center ">
+        <div class="sector flex center ">
             <div class="cardbox flex center " id="cb1">
                 <img id="i1" src="resource/Teaching-pana.svg">
-                <div class="card bg-pink" id="c1"></div>
+                <div class="card bg-pink" id="c1">
+                    Academics
+                </div>
             </div>
             <img class="dotted" id="dot1" src="resource/dotted_line-removebg-preview.png ">
         </div>
 
 
-        <div class="sector   flex center ">
+        <div class="sector flex center ">
             <div class="cardbox flex center " id="cb2">
                 <img id="i2" src="resource/Teacher-pana.svg">
-                <div class="card bg-fadeblue" id="c2"></div>
+                <div class="card bg-fadeblue" id="c2">
+                    About us
+                </div>
             </div>
             <img class="dotted" id="dot2" src="resource/dotted_line_2-removebg-preview.png ">
         </div>
@@ -85,7 +105,9 @@
             <div class="cardbox flex center " id="cb3">
 
                 <img id="i3" class="" src="resource/Project Stages.gif">
-                <div class="card bg-yellow" id="c3"></div>
+                <div class="card bg-yellow" id="c3">
+                    School Activities
+                </div>
             </div>
         </div>
     </section>
@@ -93,147 +115,49 @@
         <img src="resource/nwv1.svg" id="btmwave">
     </div>
 
-    <div class="gallerycontainer">
-        <div class="custom-shape-divider-top-1637830350">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                    class="shape-fill"></path>
-            </svg>
-            <div class="image-gallery">
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture2.jpg" alt="Gandhi Jayanthi">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Gandhi Jayanthi</h1>
-                    </div>
-                </div>
-                <!--Second one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture3.jpg" alt="Republic day celebrations">
 
-                    </div>
-                    <div class="p2-back">
-                        <h1>Republic Day</h1>
-                    </div>
+
+    <footer class="bg-white">
+        <!-- <footer class=" border "> -->
+        <div class="content">
+            <div class="left box">
+                <div class="upper">
+
+                    <span class="logobar fs-big fw-600 ff-sg uppercase flex ">
+                        <div class="logo bg-orange"></div>
+                        CGKG
+                    </span>
                 </div>
-                <!--Third one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture11.jpg" alt="Hand Printing Online Sessions">
+                <div class="lower">
+                    <div class="topic">Contact us</div>
+                    <div class="phone">
+                        <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
                     </div>
-                    <div class="p2-back">
-                        <h1>Hand Printing</h1>
-                    </div>
-                </div>
-                <!--Fourth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture6.jpg" alt="Chairman's maiden visit to CGKG">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Chairmen's visit</h1>
-                    </div>
-                </div>
-                <!--Fifth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture9.jpg" alt="Gandhi Jayanthi 2020 drawing">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Gandhi Jayanthi Drawing</h1>
-                    </div>
-                </div>
-                <!--Sixth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture14.jpg" alt="Story Telling Competition">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Story Telling</h1>
-                    </div>
-                </div>
-                <!--Seventh one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture1.jpg" alt="Gandhi Jayanthi 2020 (love, laugh)">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Love, Laugh</h1>
-                    </div>
-                </div>
-                <!--Eighth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture10.jpg" alt="Online Activity Session">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Online Activity</h1>
-                    </div>
-                </div>
-                <!--Ninth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture13.jpg" alt="Poem Recitation Competition">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Poem Recitation</h1>
-                    </div>
-                </div>
-                <!--Tenth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture7.jpg" alt="TREE PLANTATION BY STUDENTS AT HOME">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Tree Plantation</h1>
-                    </div>
-                </div>
-                <!--Eleventh one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture5.jpg" alt="TREE PLANTATION at CGKG">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Tree Plantation</h1>
-                    </div>
-                </div>
-                <!--Twelvth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture8.jpg" alt="Drawing-Gandhi Jayanthi 2020">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Drawing</h1>
-                    </div>
-                </div>
-                <!--Thirteenth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture4.jpg" alt="Yoga day celebrations">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Yoga Day</h1>
-                    </div>
-                </div>
-                <!--Fourteenth one-->
-                <div class="p2">
-                    <div class="p2-front">
-                        <img src="resource/Picture12.jpg" alt="Gandhi Jayanthi 2020">
-                    </div>
-                    <div class="p2-back">
-                        <h1>Gandhi Jayanthi</h1>
+                    <div class="email">
+                        <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            <div class="middle box">
+                <div class="topic">Our School</div>
+                <div><a href="#">Academics</a></div>
+                <div><a href="#">About Us</a></div>
+                <div><a href="#">School Activities</a></div>
+                <div><a href="#">Miscellaneous Details</a></div>
+                <div><a href="#">Gallery</a></div>
+            </div>
+            <div class="right box">
+                <div class="topic">Subscribe us</div>
+                <form action="#">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit" name="" value="Send">
 
-    <footer class="vh-150 border">
+                </form>
+            </div>
+        </div>
     </footer>
+
+    <script src="gsap.js"></script>
 </body>
 
 </html>
