@@ -20,9 +20,12 @@ nav span {
   margin: 1.5rem;
 }
 .logo {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(resource/logo.jpg);
+  background-size: contain;
+  background-position: center;
+  background-color: white;
 }
 .navbtn {
   height: 50px;
