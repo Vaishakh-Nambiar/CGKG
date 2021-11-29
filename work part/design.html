@@ -29,13 +29,23 @@
     <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="pages.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+<style>
+    body {
+        overflow-x: hidden;
+    }
 
-    <style>
-        body {
-            overflow-x: hidden;
-        }
-    </style>
+    .underline {
+        display: block;
+        border-radius: 10px;
+        height: 5px;
+        width: 100%;
+        background-color: pink;
+    }
+</style>
 </head>
 
 <body>
@@ -111,11 +121,63 @@
             </div>
         </div>
     </section>
-    <div class="miscarea border ">
+    <div class="miscarea">
         <img src="resource/nwv1.svg" id="btmwave">
     </div>
 
 
+    <div class="gallery flex center ">
+        <h1 class="ff-br uppercase fs-ubig">
+            gallery
+            <span class="underline"></span>
+        </h1>
+
+        <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img1.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img2.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img3.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img4.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img5.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img6.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img7.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img8.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img9.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img10.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img11.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img12.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img13.jpeg">
+            </div>
+            <div class="carousel-cell">
+                <img class="w3-image" src="resource/img14.jpeg">
+            </div>
+
+        </div>
+    </div>
 
     <footer class="bg-white">
         <!-- <footer class=" border "> -->
@@ -157,7 +219,9 @@
         </div>
     </footer>
 
-    <script src="gsap.js"></script>
+    <!-- <script src="gsap.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

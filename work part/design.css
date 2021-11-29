@@ -158,7 +158,36 @@ nav {
 /* ------------------------ */
 .miscarea {
   position: relative;
-  height: 100vh;
+  height: 50vh;
+}
+/* ---------------------------- */
+.carousel-cell {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+}
+
+.gallery {
+  height: 90vh;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+.carousel {
+  height: 50vh;
+  width: 50vw;
+  padding: 2rem;
+}
+
+.carousel img {
+  height: 50vh;
+  width: auto;
 }
 /* ---------------------------- */
 footer {
